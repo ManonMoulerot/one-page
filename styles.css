@@ -1,0 +1,68 @@
+/*universel*/
+body {
+    margin:0;
+ 
+}
+
+h1, h2, p, ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.container {
+    width: 85%;
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/*header général*/
+.header {
+    margin: 0;
+    width: 100%;
+    height: 800px;
+ }
+
+.bg-home {
+    background-image: url("images/banniere.jpg");
+    background-repeat: no-repeat;
+}
+
+.headerbg {
+    margin: 0;
+    width: 100%;
+    background-color: #353f46;
+    opacity: 85%;
+    height: 150px;
+}
+/*header partie 1*/
+.header1 {
+    display:flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items:center;
+}
+.nav{
+    width:500px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav a {
+    color:white;
+    font-size:14px;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.nav a:hover {
+    color:#4bcaff;
+    border-style:solid;
+    border
+}
+/*header partie 2*/
