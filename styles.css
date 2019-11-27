@@ -1,12 +1,38 @@
 /*universel*/
+@font-face {
+    font-family:'SEGOEUIL';
+    src: url("fonts/SEGOEUIL.woff") format("woff");
+}
 body {
     margin:0;
- 
 }
 
-h1, h2, p, ul{
+ p, ul,h3{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+h2{
+    margin:0;
+    font-family: 'SEGOEUIL';
+    font-weight:normal;
+    text-transform: uppercase;
+    font-size:30px;
+}
+span{
+    border-bottom: 2px solid;
+}
+a {
+    border: 2px solid transparent;
+    padding:5px 13px 5px 13px;
+    font-size:14px;
+    font-weight: bold;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    border: 2px solid;
+    padding:5px 13px 5px 13px;
 }
 
 .container {
@@ -15,11 +41,34 @@ h1, h2, p, ul{
     margin: 0 auto;
     padding: 0;
 }
-
-/*header général*/
-.header {
+.page-auto {
     margin: 0;
     width: 100%;
+}
+
+.titre{
+    display:flex;
+    height:115px;
+    justify-content:flex-start;
+    align-items:flex-end;  
+}
+
+.titre2{
+    display:flex;
+    height:115px;
+    justify-content:space-between;
+    align-items:flex-end;  
+}
+
+.nav1 a {
+    color:white;
+}
+
+.nav2 a {
+    color:#353f46;
+}
+/*header général*/
+.header {
     height: 800px;
  }
 
@@ -29,8 +78,6 @@ h1, h2, p, ul{
 }
 
 .headerbg {
-    margin: 0;
-    width: 100%;
     background-color: #353f46;
     opacity: 85%;
     height: 150px;
@@ -43,7 +90,7 @@ h1, h2, p, ul{
     align-items:center;
 }
 .nav{
-    width:500px;
+    width:530px;
 }
 
 .nav ul {
@@ -53,16 +100,75 @@ h1, h2, p, ul{
 
 }
 
-.nav a {
-    color:white;
-    font-size:14px;
-    font-weight: bold;
-    text-decoration:none;
-}
 
 .nav a:hover {
     color:#4bcaff;
-    border-style:solid;
-    border
 }
+
+
 /*header partie 2*/
+.header2 {
+    padding-top: 250px;
+    padding-bottom:250px;
+    text-align : center;
+}
+
+h1 { 
+    font-family:'SEGOEUIL';
+    text-transform: uppercase;
+    font-size:42px;
+    color:white;
+    font-weight:normal;
+    display : inline;
+    background-color: #353f46;
+    opacity: 85%;
+    line-height: 160%;
+}
+
+/*service*/
+.f-display {
+    display:flex;
+}
+
+.column-three {
+
+    margin-right: 40px;
+    box-sizing: border-box;
+    width:33.3333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+}
+
+.column-four {
+    box-sizing: border-box;
+    width:33.3333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+}
+
+.bg-service {
+    background-color: #4bcaff;
+}
+
+.service {
+    height:405px;
+}
+.service h2,h3,p {
+    color:white;
+}
+
+.service h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    margin:0;
+}
+.service p {
+    font-size: 12px;
+}
+
+/*portfolio*/
+
+.portfolio {
+    height: 850px;
+}
+
+.petit-logo {
+    margin-top:40px;
+    background-color: ;
+}
