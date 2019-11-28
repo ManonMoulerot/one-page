@@ -153,6 +153,7 @@ h1 {
     color:white;
 }
 
+
 .service h3{
     font-size: 24px;
     text-transform: uppercase;
@@ -170,5 +171,29 @@ h1 {
 
 .petit-logo {
     margin-top:40px;
+}
+
+/*just default section*/
+.bg-just-default-section {
+    background-color: #515f67;
+}
+.just-default-section {
+    height:473px;
+}
+
+/*twitter*/
+.twitter{
+    height:305px;
+}
+.bg-twitter {
+    background-color: #4bcaff
+}
+#twitter {
+    color:white;
+} 
+.cookie p {
+    font-weight: lighter;
+    font-size: 28px;
+    line-height: 160%;
 }
 
