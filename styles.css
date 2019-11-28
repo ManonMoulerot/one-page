@@ -268,16 +268,16 @@ h1 {
 }
 
 .cadre {
-    padding:16px 13px 16px 13px;
+    height:64px;
+    width:64px;
     border: 2px solid;
     color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.cadreg {
-    padding:13px 13px 13px 13px;
-    border: 2px solid;
-    color:white;
-}
+
 /* testimonials*/
 
 .text2 p {
@@ -309,8 +309,32 @@ h1 {
     background-color: #353f47;
 }
 .titre3 {
-
+    display:flex;
+    height:170px;
+    justify-content:space-between;
+    align-items: center;
 }
-.nav3 {
+.nav-footer {
+    width: 400px;
+}
 
+.nav-footer a{
+    text-decoration: none;
+    color: #4c5961;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.footer p{
+    color: #4c5961;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.nav-footer ul{
+    color: #4c5961;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding:0;
 }
