@@ -21,7 +21,7 @@ h2{
 span{
     border-bottom: 2px solid;
 }
-a {
+.nav a {
     border: 2px solid transparent;
     padding:5px 13px 5px 13px;
     font-size:14px;
@@ -30,7 +30,7 @@ a {
     text-transform: uppercase;
 }
 
-a:hover {
+.nav a:hover {
     border: 2px solid;
     padding:5px 13px 5px 13px;
 }
@@ -66,6 +66,10 @@ a:hover {
 
 .nav2 a {
     color:#353f46;
+}
+
+p {
+    color:#353f46 
 }
 /*header général*/
 .header {
@@ -149,7 +153,10 @@ h1 {
 .service {
     height:405px;
 }
-.service h2,h3,p {
+.service h2,h3 {
+    color:white;
+}
+.service p {
     color:white;
 }
 
@@ -191,9 +198,60 @@ h1 {
 #twitter {
     color:white;
 } 
-.cookie p {
+.text p {
+
     font-weight: lighter;
     font-size: 28px;
     line-height: 160%;
 }
 
+.textcolor p {
+    color:white;
+}
+
+/*who-is-john*/
+.who-is-john {
+    height:505px;
+}
+
+.bg-who-is-john {
+    background-image: url("images/who-is-john-doe.jpg");
+    background-repeat: no-repeat;
+}
+
+/* testimonials*/
+
+.text2 p {
+    font-size: 14px;
+    font-weight: bold;
+    color:#4bcaff;
+}
+
+.testimonials {
+    height: 360px;
+}
+
+/*contact*/
+
+.contact {
+    height:814px;
+}
+
+.bg-contact {
+    background-image: url("images/contact.jpg");
+    background-repeat: no-repeat;
+}
+
+/*footer*/
+.footer {
+    height:170px;
+}
+.bg-footer{
+    background-color: #353f47;
+}
+.titre3 {
+
+}
+.nav3 {
+
+}
