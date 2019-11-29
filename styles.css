@@ -5,6 +5,7 @@
 }
 body {
     margin:0;
+    min-width:1170px;
 }
 
  p, ul,h3{
@@ -98,6 +99,11 @@ p {
     width:530px;
 }
 
+.active a{
+    border: 2px solid;
+    padding:5px 13px 5px 13px;
+    color:#4bcaff;
+}
 .nav ul {
     list-style: none;
     display: flex;
@@ -166,6 +172,9 @@ h1 {
 }
 
 /*portfolio*/
+.margin {
+    margin-top: 50px;
+}
 
 .portfolio {
     height: 850px;
@@ -338,3 +347,32 @@ h1 {
     justify-content: space-between;
     padding:0;
 }
+
+.label-display {
+ flex-direction: column;
+}
+/********* Superposition simple de texte sur une image *******/
+/* Conteneur principal */
+.overlay-image {
+    position: relative;
+    width: 100%;
+   }
+   /* Image originale */
+   .overlay-image .image {
+    display: block;
+    width: 100%;
+    height: auto;
+   }
+   /* Overlay */
+.overlay-image .hover {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+   }
+   /* Apparition overlay sur passage souris */
+   .overlay-image:hover .hover {
+    opacity: 0.8;
+   }
