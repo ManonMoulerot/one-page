@@ -310,6 +310,43 @@ h1 {
     background-repeat: no-repeat;
 }
 
+.columne {
+    flex-direction: column;
+}
+
+.column-contact {
+    flex-direction:column;
+    margin-top:40px;
+}
+
+.design {
+    width:470px;
+    margin-right:130px;
+}
+
+.design1{
+    height:60px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.taille{
+    height:222px;
+    width:1170px;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.bouton2 {
+    margin-top: 40px;
+    background-color: #4bcaff;
+    border-color: transparent;
+    color: White;
+    padding: 25px 130px;
+    font-size: 14px;
+    font-weight:bold;
+}
+
 /*footer*/
 .footer {
     height:170px;
@@ -348,9 +385,7 @@ h1 {
     padding:0;
 }
 
-.label-display {
- flex-direction: column;
-}
+
 /********* Superposition simple de texte sur une image *******/
 /* Conteneur principal */
 .overlay-image {
@@ -370,7 +405,7 @@ h1 {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5s ease;
+    transition: all 0.5s ease;
    }
    /* Apparition overlay sur passage souris */
    .overlay-image:hover .hover {
