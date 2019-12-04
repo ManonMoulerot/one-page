@@ -148,16 +148,15 @@ h1 {
     justify-content: space-between;
 }
 
-.column-three {
-
+.column-normal {
     margin-right: 30px;
     box-sizing: border-box;
-    width:33.3333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    width:33.333333%;
 }
 
 .column-four {
     box-sizing: border-box;
-    width:33.3333333333333333333333333333333333333333333333333333333333333333333333333333333333%;
+    width:33.33333%;
 }
 
 .bg-service {
@@ -195,7 +194,7 @@ h1 {
 
 }
 
-.petit-logo {
+.margin-logo {
     margin-top:40px;
 }
 
@@ -290,7 +289,7 @@ iframe {
     margin-bottom: 40px;
     color:white;
 }
-.petit-logo-width {
+.height-logo-width {
     width:320px;
 }
 
@@ -328,14 +327,10 @@ iframe {
     background-repeat: no-repeat;
 }
 
-.columne {
+.column2 {
     flex-direction: column;
 }
 
-.column-contact {
-    flex-direction:column;
-    margin-top:30px;
-}
 .column-contact {
     flex-direction:column;
     margin-top:30px;
@@ -469,9 +464,11 @@ label {
     opacity: 80%;
    }
 
+/********* Formulaire valide non valide *******/
+
 input:valid {
-    box-shadow: 0 0 2px 1px green;
-    border: 2px solid  green;
+    box-shadow: 0 0 2px 1px rgb(37, 209, 37);
+    border: 2px solid  rgb(37, 209, 37);
  }
 
 input:focus:invalid {
